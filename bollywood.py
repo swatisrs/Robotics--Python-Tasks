@@ -5,7 +5,7 @@ k = '*' * len(c_m[0])
 print(k)
 lap = {}
 for i in range(len(c_m[0])):
-    if c_m[0][i] not in lap.keys():
+    if c_m[0][i] not in lap.keys(): //participating in hacktoberfest
         j = list()
         j.append(i)
         lap[c_m[0][i]] = j
